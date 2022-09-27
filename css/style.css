@@ -283,7 +283,7 @@ h3 {
   background-image: var(--card-img-hovered-overlay), url(https://miro.medium.com/max/750/0*XMbwmj-4r80bBuIg.jpg);
 }
 .card-3 .card-img, .card-3 .card-img-hovered {
-  background-image: var(--card-img-hovered-overlay), url(images/oosd.png);
+  background-image: var(--card-img-hovered-overlay), url(../images/oosd.png);
 }
 
 
