@@ -42,6 +42,7 @@ h3 {
   width: 100%;
   display: flex;
   justify-content: center;
+  z-index: 10;
 }
 
 .navbar a {
@@ -129,6 +130,11 @@ h3 {
   margin: auto;
 }
 
+.content-body .intro {
+  width: 40%;
+  text-align: center;
+}
+
 /*EDUCATION*/
 .experience {
   width: 90%;
@@ -168,6 +174,7 @@ h3 {
   align-items: center;
   transition: all 200ms ease-in-out;
 }
+
 .card {
   align-self: flex-start;
   position: relative;
@@ -323,6 +330,4 @@ h3 {
 .copyright {
 	font-size: 0.75rem;
 	padding: 20px 0;
-  margin: auto;
-  width: 150px;
 }
